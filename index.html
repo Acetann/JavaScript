@@ -2,16 +2,26 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<input id="newItem" />
-<button onclick="add()">Ajouter</button>
-<ul id="myUl">Nouvelle Liste</ul>
+    <div class="container">
+        <div class="header">
+            <div id="date"></div>
+        </div>
+    </div>
+        <div class="content">
+            <ul id="list">
+            </ul>
+            
+        </div>
+        <div class="ajouter">
+            <input type="text" id="input" placeholder="New Item">
+        </div>
+
+    <script src="js/fonction.js"></script>
 </body>
-
-<script type="text/javascript" src="Fonction.js"></script>
-
 </html>
